@@ -68,5 +68,5 @@ urlpatterns = [
     
     path('', include(router.urls)),
     
-    path(r'docs/', include_docs_urls(title='Helpdesk API')),
+    path(r'docs/', include_docs_urls(title='RailRetro API')),
 ]     
